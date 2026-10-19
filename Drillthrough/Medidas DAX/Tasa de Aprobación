@@ -1,0 +1,15 @@
+Tasa de Aprobación = 
+VAR SolicitudesRespondidas =
+    CALCULATE (
+        [Número de Solicitudes],
+        DimEstado[Estado] IN {
+            "Aprobada",
+            "Rechazada"
+        }
+    )
+RETURN
+    DIVIDE (
+        [Solicitudes Aprobadas],
+        SolicitudesRespondidas,
+        0
+    )
