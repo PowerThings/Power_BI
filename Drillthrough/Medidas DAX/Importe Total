@@ -1,0 +1,2 @@
+Importe Total = 
+SUM ( FactSolicitudes[Importe] )
