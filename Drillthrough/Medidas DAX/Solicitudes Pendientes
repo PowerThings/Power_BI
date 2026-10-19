@@ -1,0 +1,5 @@
+Solicitudes Pendientes = 
+CALCULATE (
+    [Número de Solicitudes],
+    DimEstado[Estado] = "Pendiente"
+)
