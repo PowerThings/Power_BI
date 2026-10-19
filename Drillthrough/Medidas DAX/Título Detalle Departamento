@@ -1,0 +1,6 @@
+Título Detalle Departamento = 
+"Detalle del departamento: "
+    & SELECTEDVALUE (
+        DimDepartamento[Departamento],
+        "Departamento no seleccionado"
+    )
