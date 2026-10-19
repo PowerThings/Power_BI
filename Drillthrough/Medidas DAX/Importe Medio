@@ -1,0 +1,2 @@
+Importe Medio = 
+AVERAGE ( FactSolicitudes[Importe] )
